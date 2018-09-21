@@ -23,7 +23,9 @@ jogador a alcançar uma liderança de 2 pontos.
 Observações:
 
     ● Não há necessidade de validar as entradas, considere que elas sempre estarão em formato válido
+    
     ● Não é necessário checar se um dos jogadores já ganhou, este caso não será utilizado nos testes do algoritmo.
+    
     ● O "jogador a" sempre começa sacando.
 
 Exemplos:
@@ -31,6 +33,9 @@ Exemplos:
 Exemplos de chamada de função:
 
 saque("0:0"); // retorna "jogador a"
+
 saque("3:2"); // retorna "jogador b"
+
 saque("21:20"); // retorna "jogador a"
+
 saque("21:22"); // retorna "jogador b"
